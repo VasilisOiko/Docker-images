@@ -1,4 +1,8 @@
 FROM handsonsecurity/seed-ubuntu:small
+
+RUN apt-get update && \
+    apt-get install -yq tzdata
+    
 ENV TZ="Europe/Athens"
 
 RUN apt-get update && apt-get install -y \
