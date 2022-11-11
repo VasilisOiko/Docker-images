@@ -1,1 +1,0 @@
-docker run -it --name ParallelProjects -v "C:\Users\Billy Oiko\Documents\Programming\Projects\Parallel Systems:/home/share" openmp:latest
